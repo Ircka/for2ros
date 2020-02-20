@@ -6,16 +6,22 @@
     <title>Geos в Рязани</title>
     <style>
         body {
-            background-image: url(/title.jpg);
-            background-color: #c7b39b;
-            background-repeat: no-repeat;
-            background-size: 100%;
+            
+            background-color: #000000;
+            
         }
         div {
     padding: 5px;
     margin-right: 10px; 
    
    } 
+
+   .parent1_2 {
+       background-image: url(title.jpg);
+       background-size: 100% auto;
+       height: 100vh;
+    
+   }
 
         .block1 {
             display: flex;
@@ -41,22 +47,39 @@
         a:hover {
             color: #696969;
         }
+
+        .footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #000000; /* Цвет фона */
+    color: rgba(219, 218, 218, 0.918); /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
         
     </style>
 </head>
 
 <body>
+    <div class="parent1_2">
+
     <div class="block1">
         <div align="center" ><a href="about us.html">О нас</a></div>
         <div align="center"><a href="collection.html">Каталог</a></div>
-        <div align="center"><a href="gallery.html">Галерея</a></div>
+        <div align="center"><a href="qestion.html">Вопрос-ответ</a></div>
+        <div align="center"><a href="stocks.html">Акции</a></div>
+        <div align="center"><a href="forbyer.html">Покупателю</a></div>
         <div align="center"><a href="contacts.html">Контакты</a></div>
-        <div align="center"><a href="news.html">Новости</a></div>
+        
     </div>
 
     <div class="block2">
         <div align="center">Geos Ideal</div>
         
+    </div>
+    </div>
+    <div class="footer">
+Geos 2020
     </div>
 </body>
 
